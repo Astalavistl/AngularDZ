@@ -1,2 +1,7 @@
-<p>Пишем всякую дичь</p>
-<img src="assets/>"
+<h2>{{ title | uppercase }}</h2>
+
+<p>{{ time | date:'H:mm:ss' }}</p>
+
+<p>rhy6tijtyjdhtsddufcfufufufuehs</p>
+
+<img *ngFor="let img of imgs" [src]="img" (click) = "imgClick($event)" />
